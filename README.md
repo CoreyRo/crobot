@@ -9,13 +9,14 @@ A modern Discord bot platform with AI-powered features, content aggregation, and
 ## Project Status
 
 ### Backend (.NET)
-[![CI](https://github.com/CoreyRo/crobot-backend/actions/workflows/ci.yml/badge.svg)](https://github.com/CoreyRo/crobot-backend/actions/workflows/ci.yml)
+[![PR](https://github.com/CoreyRo/crobot-backend/actions/workflows/pr.yml/badge.svg)](https://github.com/CoreyRo/crobot-backend/actions/workflows/pr.yml)
+[![Main](https://github.com/CoreyRo/crobot-backend/actions/workflows/main.yml/badge.svg)](https://github.com/CoreyRo/crobot-backend/actions/workflows/main.yml)
 [![codecov](https://codecov.io/gh/CoreyRo/crobot-backend/branch/main/graph/badge.svg?token=HS9V0MYGKI)](https://codecov.io/gh/CoreyRo/crobot-backend)
 
 ### Frontend (React)
-[![Test and Coverage](https://github.com/CoreyRo/crobot-web/actions/workflows/test.yml/badge.svg)](https://github.com/CoreyRo/crobot-web/actions/workflows/test.yml)
-[![Deploy](https://github.com/CoreyRo/crobot-web/actions/workflows/deploy.yml/badge.svg)](https://github.com/CoreyRo/crobot-web/actions/workflows/deploy.yml)
-[![codecov](https://codecov.io/gh/CoreyRo/crobot-web/branch/main/graph/badge.svg)](https://codecov.io/gh/CoreyRo/crobot-web)
+[![PR](https://github.com/CoreyRo/crobot-web/actions/workflows/pr.yml/badge.svg)](https://github.com/CoreyRo/crobot-web/actions/workflows/pr.yml)
+[![Main](https://github.com/CoreyRo/crobot-web/actions/workflows/main.yml/badge.svg)](https://github.com/CoreyRo/crobot-web/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/CoreyRo/crobot-web/branch/main/graph/badge.svg?token=2G9ZB9MCV2)](https://codecov.io/gh/CoreyRo/crobot-web)
 
 ## About
 
