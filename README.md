@@ -10,7 +10,7 @@ A modern Discord bot platform with AI-powered features, content aggregation, and
 
 ### Backend (.NET)
 [![CI](https://github.com/CoreyRo/crobot-backend/actions/workflows/ci.yml/badge.svg)](https://github.com/CoreyRo/crobot-backend/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/CoreyRo/crobot-backend/branch/main/graph/badge.svg)](https://codecov.io/gh/CoreyRo/crobot-backend)
+[![codecov](https://codecov.io/gh/CoreyRo/crobot-backend/branch/main/graph/badge.svg?token=HS9V0MYGKI)](https://codecov.io/gh/CoreyRo/crobot-backend)
 
 ### Frontend (React)
 [![Test and Coverage](https://github.com/CoreyRo/crobot-web/actions/workflows/test.yml/badge.svg)](https://github.com/CoreyRo/crobot-web/actions/workflows/test.yml)
