@@ -9,14 +9,16 @@ A modern Discord bot platform with AI-powered features, content aggregation, and
 ## Project Status
 
 ### Backend (.NET)
-[![PR](https://github.com/CoreyRo/crobot-backend/actions/workflows/pr.yml/badge.svg)](https://github.com/CoreyRo/crobot-backend/actions/workflows/pr.yml)
-[![Main](https://github.com/CoreyRo/crobot-backend/actions/workflows/main.yml/badge.svg)](https://github.com/CoreyRo/crobot-backend/actions/workflows/main.yml)
-[![codecov](https://codecov.io/gh/CoreyRo/crobot-backend/branch/main/graph/badge.svg?token=HS9V0MYGKI)](https://codecov.io/gh/CoreyRo/crobot-backend)
+[![Build Prod](https://github.com/CoreyRo/crobot-backend/actions/workflows/build-prod.yml/badge.svg)](https://github.com/CoreyRo/crobot-backend/actions/workflows/build-prod.yml)
+[![Test Prod](https://github.com/CoreyRo/crobot-backend/actions/workflows/test-prod.yml/badge.svg)](https://github.com/CoreyRo/crobot-backend/actions/workflows/test-prod.yml)
+[![Deploy Prod](https://github.com/CoreyRo/crobot-backend/actions/workflows/deploy-prod.yml/badge.svg)](https://github.com/CoreyRo/crobot-backend/actions/workflows/deploy-prod.yml)
+[![codecov](https://codecov.io/gh/CoreyRo/crobot-backend/graph/badge.svg?token=HS9V0MYGKI&flag=prod)](https://codecov.io/gh/CoreyRo/crobot-backend)
 
 ### Frontend (React)
-[![PR](https://github.com/CoreyRo/crobot-web/actions/workflows/pr.yml/badge.svg)](https://github.com/CoreyRo/crobot-web/actions/workflows/pr.yml)
-[![Main](https://github.com/CoreyRo/crobot-web/actions/workflows/main.yml/badge.svg)](https://github.com/CoreyRo/crobot-web/actions/workflows/main.yml)
-[![codecov](https://codecov.io/gh/CoreyRo/crobot-web/branch/main/graph/badge.svg?token=2G9ZB9MCV2)](https://codecov.io/gh/CoreyRo/crobot-web)
+[![Build Prod](https://github.com/CoreyRo/crobot-web/actions/workflows/build-prod.yml/badge.svg)](https://github.com/CoreyRo/crobot-web/actions/workflows/build-prod.yml)
+[![Test Prod](https://github.com/CoreyRo/crobot-web/actions/workflows/test-prod.yml/badge.svg)](https://github.com/CoreyRo/crobot-web/actions/workflows/test-prod.yml)
+[![Deploy Prod](https://github.com/CoreyRo/crobot-web/actions/workflows/deploy-prod.yml/badge.svg)](https://github.com/CoreyRo/crobot-web/actions/workflows/deploy-prod.yml)
+[![codecov](https://codecov.io/gh/CoreyRo/crobot-web/graph/badge.svg?token=2G9ZB9MCV2&flag=prod)](https://codecov.io/gh/CoreyRo/crobot-web)
 
 ## About
 
