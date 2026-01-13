@@ -8,17 +8,14 @@ A modern Discord bot platform with AI-powered features, content aggregation, and
 
 ## Project Status
 
-### Backend
+### Backend (.NET)
 [![CI](https://github.com/CoreyRo/crobot-backend/actions/workflows/ci.yml/badge.svg)](https://github.com/CoreyRo/crobot-backend/actions/workflows/ci.yml)
-[![Test and Coverage](https://github.com/CoreyRo/crobot-backend/actions/workflows/test-and-coverage.yml/badge.svg)](https://github.com/CoreyRo/crobot-backend/actions/workflows/test-and-coverage.yml)
-[![Codecov](https://codecov.io/gh/CoreyRo/crobot-backend/branch/main/graph/badge.svg)](https://codecov.io/gh/CoreyRo/crobot-backend)
-[![Coverage](https://img.shields.io/codecov/c/github/CoreyRo/crobot-backend)](https://codecov.io/gh/CoreyRo/crobot-backend)
+[![codecov](https://codecov.io/gh/CoreyRo/crobot-backend/branch/main/graph/badge.svg)](https://codecov.io/gh/CoreyRo/crobot-backend)
 
-### Frontend
-[![Test](https://github.com/CoreyRo/crobot-web/actions/workflows/test.yml/badge.svg)](https://github.com/CoreyRo/crobot-web/actions/workflows/test.yml)
+### Frontend (React)
+[![Test and Coverage](https://github.com/CoreyRo/crobot-web/actions/workflows/test.yml/badge.svg)](https://github.com/CoreyRo/crobot-web/actions/workflows/test.yml)
 [![Deploy](https://github.com/CoreyRo/crobot-web/actions/workflows/deploy.yml/badge.svg)](https://github.com/CoreyRo/crobot-web/actions/workflows/deploy.yml)
-[![Codecov](https://codecov.io/gh/CoreyRo/crobot-web/branch/main/graph/badge.svg)](https://codecov.io/gh/CoreyRo/crobot-web)
-[![Coverage](https://img.shields.io/codecov/c/github/CoreyRo/crobot-web)](https://codecov.io/gh/CoreyRo/crobot-web)
+[![codecov](https://codecov.io/gh/CoreyRo/crobot-web/branch/main/graph/badge.svg)](https://codecov.io/gh/CoreyRo/crobot-web)
 
 ## About
 
@@ -58,23 +55,40 @@ Crobot follows a microservices architecture with clear separation of concerns:
 ### Frontend
 - **React 18** - Modern UI framework
 - **TypeScript** - Type-safe development
-- **Vite** - Fast build tool and dev server
+- **Vite** - Fast build tool and dev server with bundle analysis
 - **Material-UI (MUI)** - Professional component library
-- **Tailwind CSS** - Utility-first styling
-- **Jest + React Testing Library** - Testing framework
+- **React Router** - Client-side routing
+- **Axios** - HTTP client
+- **Jest + React Testing Library** - Comprehensive testing with coverage tracking
 
-### DevOps
-- **GitHub Actions** - CI/CD pipelines
-- **Codecov** - Code coverage tracking
-- **Docker Compose** - Multi-service orchestration
-- **Netlify** - Frontend hosting and deployment
+### DevOps & Testing
+- **GitHub Actions** - CI/CD pipelines with automated testing and deployment
+- **Codecov** - Comprehensive code coverage with:
+  - **Component Analysis** - Track coverage per service/module
+  - **Flag Management** - Separate coverage tracking for backend/frontend
+  - **Test Analytics** - Monitor test results and identify flaky tests
+  - **Bundle Analysis** - Track JavaScript bundle size over time
+- **Docker Compose** - Multi-service orchestration and local development
+- **Netlify** - Frontend hosting with preview deployments
+- **xUnit + Jest** - Unit and integration testing across all services
 
 ## Project Structure
 
-This repository serves as the public-facing documentation and overview of the Crobot platform. The implementation is split across private repositories:
+This repository serves as the public-facing documentation and overview of the Crobot platform. The implementation is split across repositories:
 
-- **Backend** - Microservices architecture, APIs, and Discord bot implementation
-- **Web** - React frontend application for user management and configuration
+- **[Backend](https://github.com/CoreyRo/crobot-backend)** - Microservices architecture (.NET), APIs, and Discord bot implementation
+- **[Web](https://github.com/CoreyRo/crobot-web)** - React SPA for user management and configuration
+
+## Quality & Testing
+
+Both repositories maintain high code quality standards with:
+
+- **Automated Testing** - Comprehensive unit and integration tests
+- **Code Coverage Tracking** - Codecov integration with component-level analysis
+- **Test Analytics** - Monitor test health and identify issues
+- **Bundle Size Monitoring** - Track frontend bundle size and prevent regressions
+- **CI/CD Pipelines** - Automated builds, tests, and deployments
+- **Status Checks** - Coverage and test requirements on all pull requests
 
 ## License
 
