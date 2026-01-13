@@ -11,8 +11,13 @@ A modern Discord bot platform with AI-powered features, content aggregation, and
 ### Backend (.NET)
 [![Build Prod](https://github.com/CoreyRo/crobot-backend/actions/workflows/build-prod.yml/badge.svg)](https://github.com/CoreyRo/crobot-backend/actions/workflows/build-prod.yml)
 [![Test Prod](https://github.com/CoreyRo/crobot-backend/actions/workflows/test-prod.yml/badge.svg)](https://github.com/CoreyRo/crobot-backend/actions/workflows/test-prod.yml)
-[![Deploy Prod](https://github.com/CoreyRo/crobot-backend/actions/workflows/deploy-prod.yml/badge.svg)](https://github.com/CoreyRo/crobot-backend/actions/workflows/deploy-prod.yml)
 [![codecov](https://codecov.io/gh/CoreyRo/crobot-backend/graph/badge.svg?token=HS9V0MYGKI&flag=prod)](https://codecov.io/gh/CoreyRo/crobot-backend)
+
+Deploy: 
+[![API](https://github.com/CoreyRo/crobot-backend/actions/workflows/deploy-api-prod.yml/badge.svg)](https://github.com/CoreyRo/crobot-backend/actions/workflows/deploy-api-prod.yml)
+[![Gateway](https://github.com/CoreyRo/crobot-backend/actions/workflows/deploy-gateway-prod.yml/badge.svg)](https://github.com/CoreyRo/crobot-backend/actions/workflows/deploy-gateway-prod.yml)
+[![Worker Ingest](https://github.com/CoreyRo/crobot-backend/actions/workflows/deploy-worker-ingest-prod.yml/badge.svg)](https://github.com/CoreyRo/crobot-backend/actions/workflows/deploy-worker-ingest-prod.yml)
+[![Worker Poster](https://github.com/CoreyRo/crobot-backend/actions/workflows/deploy-worker-poster-prod.yml/badge.svg)](https://github.com/CoreyRo/crobot-backend/actions/workflows/deploy-worker-poster-prod.yml)
 
 ### Frontend (React)
 [![Build Prod](https://github.com/CoreyRo/crobot-web/actions/workflows/build-prod.yml/badge.svg)](https://github.com/CoreyRo/crobot-web/actions/workflows/build-prod.yml)
